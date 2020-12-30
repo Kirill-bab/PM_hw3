@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>HW3.ArrayStatistics</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Task_1.2\bin\**" />
+    <Compile Remove="Task_1.2\obj\**" />
+    <Compile Remove="Task_1.3\bin\**" />
+    <Compile Remove="Task_1.3\obj\**" />
+    <Compile Remove="Task_1.4\bin\**" />
+    <Compile Remove="Task_1.4\obj\**" />
+    <Compile Remove="Task_2.1\**" />
+    <EmbeddedResource Remove="Task_1.2\bin\**" />
+    <EmbeddedResource Remove="Task_1.2\obj\**" />
+    <EmbeddedResource Remove="Task_1.3\bin\**" />
+    <EmbeddedResource Remove="Task_1.3\obj\**" />
+    <EmbeddedResource Remove="Task_1.4\bin\**" />
+    <EmbeddedResource Remove="Task_1.4\obj\**" />
+    <EmbeddedResource Remove="Task_2.1\**" />
+    <None Remove="Task_1.2\bin\**" />
+    <None Remove="Task_1.2\obj\**" />
+    <None Remove="Task_1.3\bin\**" />
+    <None Remove="Task_1.3\obj\**" />
+    <None Remove="Task_1.4\bin\**" />
+    <None Remove="Task_1.4\obj\**" />
+    <None Remove="Task_2.1\**" />
+  </ItemGroup>
+
+</Project>
